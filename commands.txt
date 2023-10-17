@@ -1,1 +1,77 @@
-The following are the git commands used
+    1  cd /etc
+    2  ls -lrth
+    3  ls -lrth | grep init
+    4  cd init.d/
+    5  ls -lrth
+    6  cd tomcat8
+    7  cd ~
+    8  cd $CATALINA_HOME
+    9  ls -lrth
+   10  cd bin
+   11  cd /etc/
+   12  ls -lrth | grep bin
+   13  cd ~
+   14  cd usr
+   15  cd /usr
+   16  ls -lrth
+   17  cd share
+   18  ls -lrth
+   19  cd tomcat8-codedeploy/
+   20  ls -lrth
+   21  cd bin
+   22  ls -lrth
+   23  ./startup.sh
+   24  status_code=$(curl --write-out %{http_code} --silent --output /dev/null http://localhost:80)
+   25  clear
+   26  yum install curl
+   27  curl --write-out %{http_code} --silent --output /dev/null http://localhost:80
+   28  curl --write-out %{http_code} --silent --output /dev/null http://localhost:8080
+   29  ls -lrth
+   30  cd ..
+   31  ls -lrth
+   32  cd webapps/
+   33  ls -lrth
+   34  curl s3://sample-java-app-awscodepipeline-cicd-654123/Sample-java-app-ci/target/SampleMavenTomcatApp.war
+   35  aws --version
+   36  aws s3 cp s3://sample-java-app-awscodepipeline-cicd-654123/Sample-java-app-ci/target/SampleMavenTomcatApp.war
+   37  curl https://sample-java-app-awscodepipeline-cicd-654123.s3.amazonaws.com/Sample-java-app-ci/target/SampleMavenTomcatApp.war
+   38  ls -lrth  43  ls -lrth
+   44  cd ~
+   45  netstat -anp | grep 80
+   46  status_code=$(curl --write-out %{http_code} --silent --output /dev/null http://localhost:80)
+   47  echo $status_code
+   48  curl -vk localhost:80
+   49  java --version
+   50  yum remove openjdk 17.0.8.1
+   51  yum install java8* -y
+   52  sudo yum install java-1.8*
+   53  ps -ef | grep tomcat
+   54  /bin/java --version
+   55  ls -ld /bin/java
+   56  alternatives --config java
+   57  /bin/java --version
+   58  /bin/java -version
+   59  curl -vk localhost:80
+   60  /bin/java -version
+   61  ps -ef | grep tomcat
+   62  date
+   63  cd /usr/share
+   64  ls -lrth
+   65  ps -ef |grep tomcat
+   66  cd /usr/share/tomcat8-codedeploy/
+   67  ls -lrth
+   68  cd webapps/
+   69  ls -lrth
+   70  curl -vk localhost:80/examples
+   71  curl -vk localhost:80
+   72  ls -ltr
+   73  cd ~
+   74  cat history > commands.txt
+   75  history
+   76  history > commands.txt
+   77  ls -lrth
+   78  vi commands.txt
+   79  clear
+
+/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.382.b05-1.amzn2.0.2.x86_64
+   
